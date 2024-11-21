@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom';
 import Form from "./Component/Form";
 import Registration from "./Component/Registration";
+import Home from "./Component/Home";
 
 export default function App() {
 
@@ -12,9 +13,9 @@ export default function App() {
     <Router>
       <div>
         <Routes>
-          <Route exact path="/" element={<Form />} Component={Form}></Route>
-          <Route path="/Registration" element={Registration} Component={Registration}></Route>
-          <Route path="*" element={<Navigate to="/" />}></Route>
+          <Route path="/" element={<Home />} Component={Home}></Route>
+          <Route path="/Registration" element={<Registration />} Component={Registration}></Route>
+          <Route path="/Form" element={<Form />}></Route>
         </Routes>
       </div>
     </Router>
