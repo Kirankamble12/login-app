@@ -1,0 +1,45 @@
+{
+    "userInfo": [
+      {
+        "id": 1,
+        "fname": "ray k",
+        "lname":  "k",
+        "email": "ray@gmail.com",
+        "password": "r@y123",
+        "conpassword": "r@y123"
+      },
+      {
+        "id": 2,
+        "fname": "ash",
+        "lname":  "k",
+        "email": "ash@gmail.com",
+        "password": "@s#456",
+        "conpassword": "@s#456"
+      },
+      {
+        "id": 3,
+        "fname": "",
+        "lname":  "",
+        "email": "",
+        "password": "",
+        "conpassword": ""
+      },
+      {
+        "id": 4,
+        "fname": "",
+        "lname":  "",
+        "email": "",
+        "password": "",
+        "conpassword": ""
+      },
+      {
+        "id": 5,
+        "fname": "",
+        "lname":  "",
+        "email": "",
+        "password": "",
+        "conpassword": ""
+      }
+    ]
+  }
+  
